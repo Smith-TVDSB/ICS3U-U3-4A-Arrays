@@ -12,8 +12,8 @@
 TEST_CASE("Exercise Two") //Named ExerciseOne, tagged with example
 {
     //Checks keeps running if fails
-    int arr1[10] = {-80, -13, -79, -61, 23, 95, 49, 100, -13, -65};
-    CHECK(exerciseTwo(arr1, 10) == -4.4);
+    int arr2_1[10] = {-80, -13, -79, -61, 23, 95, 49, 100, -13, -65};
+    CHECK(exerciseTwo(arr2_1, 10) == -4.4);
     //int arr2[1] = {5};
     //CHECK(exerciseTwo(arr2,1 == 5));
     //CHECK(exerciseTwo({84, 19, -12, 67, 31},5) == 37.8);
@@ -23,7 +23,8 @@ TEST_CASE("Exercise Two") //Named ExerciseOne, tagged with example
 
 TEST_CASE("Exercise Three")
 {
-    CHECK(exerciseThree({-90, -13, 37, 91, -80},5) == 91);
+    int arr3_1[5] = {-90, -13, 37, 91, -80}
+    CHECK(exerciseThree(arr3_1,5) == 91);
     //CHECK(exerciseThree({294, -987, -519, 854, -755}, 5) == 854);
     //CHECK(exerciseThree({9000},1) == 9000);
     //CHECK(exerciseThree({-841},1) == -841);
