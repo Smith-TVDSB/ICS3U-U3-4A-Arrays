@@ -9,21 +9,25 @@
 
 //TESTS
 
-TEST_CASE("ExerciseOne") //Named ExerciseOne, tagged with example
+TEST_CASE("Exercise Two") //Named ExerciseOne, tagged with example
 {
-    
-    //TODO: Set up tests
-    REQUIRE(replace(function()==Approx(5)); //within 1 of 5
-    REQUIRE(replace(function()==Approx(3).margin(5)); //within 5 units of 3
-    
     //Checks keeps running if fails
-    CHECK(function()==0)
-
-    //Checks if a function throws an exception
-    REQUIRE_THROWS_WITH( openThePodBayDoors(), Contains( "afraid" ) && Contains( "can't do that" ) );
-        
+    CHECK(exerciseTwo([-80, -13, -79, -61, 23, 95, 49, 100, -13, -65],10) == -4.4)
+    CHECK(exerciseTwo([5],1 == 5))
+    CHECK(exerciseTwo([84, 19, -12, 67, 31],5) == 37.8)
+    CHECK(exerciseTwo([-24, 26, 94, -80, 66],5) == 16.4)
+    CHECK(exerciseTwo([-60, -38, -46, -93, 68, 97, -91, -57, -45, -78, -39, -71, -45, 84, 38, 87, 33, 55, -2, 99, -8, 93, -13, -100, 7, 98, -44, 54, -19, -94, 82, -59, -71, 48, -85, 70, -42, -17, 17, -32, -60, -87, 73, -33, 41, -28, 66, -40, 38, -23, 86, -98, 51, 60, 5, 12, -72, 91, 1, 16, 51, 44, -59, 93, -77, 74, -38, 70, 21, 48, -69, -29, 59, 10, 27, 30, 86, -32, 39, -37, 86, -81, -15, 12, -94, 64, 84, 44, 45, 76, -24, -79, -92, 61, -50, 41, 7, 32, 67, 28],100) == 4.03)
 }
 
+TEST_CASE("Exercise Three")
+{
+    CHECK(exerciseThree([-90, -13, 37, 91, -80],5) == 91)
+    CHECK(exerciseThree([294, -987, -519, 854, -755], 5) == 854)
+    CHECK(exerciseThree([9000],1) == 9000)
+    CHECK(exerciseThree([-841],1) == -841)
+    CHECK(exerciseThree([680, -127, 387, -317, -988, 22, -776, 217, -373, 225, -331, -716, 994, 170, 972, -934, -328, 419, 319, 108, -737, 88, -739, -694, -938, -491, -608, 471, 669, 603],30) == 994)
+    CHECK(exerciseThree([-296, -105, -875, 66, 136, 555, 67, -391, -57, 791, 129, 718, 193, -431, -365, -821, -611, 188, -605, -47],20) == 791)
+}
 // Notes for teacher: 
 // can use variables and libraries
 // can use logic operators and loops

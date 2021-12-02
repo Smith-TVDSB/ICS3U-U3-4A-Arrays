@@ -7,10 +7,15 @@ using namespace std;
 // ===============
 // implementations
 
+//Not checking exercise 1, still worth doing
+
 //Replace string function
-int function()
+float exerciseTwo(int arr[], int arrSize)
 {
-	return "0"; // TODO: fix
+	return 0; // TODO: fix
 }
 
-
+float exerciseThree(int arr[], int arrSize)
+{
+	return 0; // TODO: fix
+}
