@@ -23,7 +23,7 @@ TEST_CASE("Exercise Two") //Named ExerciseOne, tagged with example
 
 TEST_CASE("Exercise Three")
 {
-    int arr3_1[5] = {-90, -13, 37, 91, -80}
+    int arr3_1[5] = {-90, -13, 37, 91, -80};
     CHECK(exerciseThree(arr3_1,5) == 91);
     //CHECK(exerciseThree({294, -987, -519, 854, -755}, 5) == 854);
     //CHECK(exerciseThree({9000},1) == 9000);
