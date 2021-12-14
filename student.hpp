@@ -9,8 +9,7 @@ using namespace std;
 
 //Not checking exercise 1, still worth doing
 
-//Replace string function
-float exerciseTwo(int *arr, int arrSize)
+double exerciseTwo(int *arr, int arrSize)
 {
 	return 0; // TODO: fix
 }
